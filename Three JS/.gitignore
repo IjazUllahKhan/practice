@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Production build
+dist/
+build/
+
+# Development
+.vscode/
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.sublime-workspace
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.cache/
+*.bak
+.tmp/
+
+# Editor
+*.vscode
+.prettierrc
